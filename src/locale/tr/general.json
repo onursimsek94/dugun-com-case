@@ -1,0 +1,7 @@
+{
+  "message": {
+    "success": "Yapılan işlem başarıyla tamamlandı.",
+    "error": "Yapılan işlem sırasında hata oluştu, lütfen tekrar deneyiniz!",
+    "validation_error": "Lütfen zorunlu alanları doldurun!"
+  }
+}

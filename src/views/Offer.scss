@@ -1,0 +1,26 @@
+@import "../assets/style/variable";
+
+.offer-view {
+  .form-container {
+    @include dc-container();
+    display: block;
+
+    > form {
+      > div {
+        margin-bottom: 20px;
+
+        label {
+          font-weight: $font-weight-bold;
+        }
+      }
+    }
+
+    .action-buttons {
+      display: flex;
+
+      button {
+        width: 100%;
+      }
+    }
+  }
+}

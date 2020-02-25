@@ -1,0 +1,17 @@
+@import "../assets/style/variable";
+
+.company-list-item {
+  @include dc-container();
+
+  > div {
+    :first-child {
+      font-weight: $font-weight-bolder;
+      color: $dc-gray;
+    }
+
+    :nth-child(2) {
+      font-size: $font-size-extra-large;
+      font-weight: $font-weight-bolder;
+    }
+  }
+}
