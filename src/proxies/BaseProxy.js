@@ -1,4 +1,4 @@
-import { DUGUN } from '../../utils/request'
+import { DUGUN } from '@/utils/request'
 import qs from 'qs'
 
 const datableTypes = ['post', 'put', 'patch']
